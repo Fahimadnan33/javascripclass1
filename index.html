@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- font link  -->
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="java">
+            <h1>click the button </h1>
+            <button type="button" class="btn btn-dark border" onclick="textChange()"> click me</button>
+            <h3 id="tc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, est autem!</h3>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <h1>Date/Time</h1>
+            <button type="button" class="btn btn-primary border" onmouseover="dateTime()"> click me</button>
+            <h4 id="date">show</h4>
+          </div>
+          <div class="col-lg-4">
+            <h1> text color Change</h1>
+            <h3 id="color" onmouseenter="colorChange()">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+          </div>
+        </div>
+            <div class="row">
+              <div class="col-lg-4">
+
+                <h1> text show/hide</h1>
+                    <button onclick="textHide()" class="btn btn-primary">hide</button>
+                    <button onclick="textShow()" class="btn btn-dark">show</button>
+                    <h4 id="sh" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum!</h4>
+
+              </div>
+              <div class="col-lg-4">
+                <button onclick="nemeClass()" class="btn btn-primary"> calling by class</button>
+                <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+                <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+                <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+                <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+
+              </div>
+              <div class="col-lg-4">
+                  <h1>bullb.on/off</h1>
+                  <button onclick="bullbOff()" class="btn btn-dark">off</button>
+                  <img  id="bl" src="images/pic_bulboff.gif" alt="">
+
+                  <button onclick="bullbOn()"  class="btn btn-primary">On</button>
+              </div>
+            </div>
+    </div>
+    
+  
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="js/script.js"> </script>
+
+  </body>
+</html>
